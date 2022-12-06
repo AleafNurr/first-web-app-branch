@@ -1,9 +1,13 @@
 import React from 'react';
+import Navigation from './Navigation';
 
 function Header(){
     return(
-        <header class="border-b font-bold p-3">
-            commit testing
+        <header className="border-b flex justify-between items-center">
+            <span className="font-bold">
+                AppName
+            </span>
+            <Navigation />
         </header>
     )
 }
