@@ -9,7 +9,7 @@ function App() {
     <div>
       <Header />
       
-      <HelloWorld name='Filly'/>
+      <HelloWorld name='James'/>
 
       <Footer />
     </div>
