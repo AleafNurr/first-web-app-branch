@@ -15,8 +15,8 @@ function Navigation(){
         enter: { opacity: 1, transform: 'translateX(0%)' },
         leave: { opacity: 0, transform: 'translateX(-100%)' },
     })
-    let menu;
-    let menuMask;
+    // let menu;
+    // let menuMask;
     // Conditional rendering
     // if(showMenu){
     //     menu = (
