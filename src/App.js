@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Header />
-      
+      <h1 className='font-bold'>Welcome</h1>
       <HelloWorld name='James'/>
 
       <Footer />

@@ -38,7 +38,7 @@ function Navigation(){
 
     return(
         <nav>
-            <span className='text-xl'>
+            <span className='text-xl left-10'>
                 <FontAwesomeIcon 
                     icon={faBars}
                     onClick = {() => setShowMenu(!showMenu) }
@@ -48,6 +48,7 @@ function Navigation(){
             {/* { menuMask }
 
             { menu } */}
+            
             {
                 maskTransitions(
                     (styles, item) => 

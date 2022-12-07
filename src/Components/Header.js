@@ -5,7 +5,7 @@ function Header(){
     return(
         <header className="border-b flex justify-between items-center">
             <span className="font-bold">
-                Citoss Feedback App
+                Citoss Honest-Feedback App
             </span>
             <Navigation />
         </header>
